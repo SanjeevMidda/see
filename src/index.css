@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.block{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(203, 203, 203);
+}
+
+@keyframes opacity {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.letterOne, .letterTwo, h1{
+  animation-name: opacity;
+  animation-duration: 500ms;
+}
